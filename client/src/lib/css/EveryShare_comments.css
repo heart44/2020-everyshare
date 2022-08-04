@@ -1,0 +1,48 @@
+.commentsBox {
+    height: 180px;
+    border-top: 1px solid #c9c9c9;
+}
+
+.commentProfileBox {
+    width: 200px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding:40px;
+    display: inline-block;
+}
+
+.commentProfileBox > .commentProfileImg {
+    width: 50px;
+    height: 50px;
+    background-color: gray;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.commentProfileBox > p {
+    display: block;
+    text-align: center;
+}
+
+.commentsContents {
+    width: 70%;
+    height: 160px;
+    box-sizing: border-box;
+    padding: 30px;
+    font-size: 16px;
+    display: inline-block;
+    word-break:break-all;
+
+}
+
+.commentsContents > p:nth-child(1) {
+    font-weight: 100;
+    margin-bottom: 10px;
+}
+
+.commentsContents > p:nth-child(2) {
+    overflow: hidden;
+    height: 84px;
+}
+

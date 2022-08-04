@@ -1,0 +1,69 @@
+
+#header_wrap {
+   width: 100%; 
+   height: 70px;
+   background-color: #E4E4E4;
+   margin-bottom: 50px;
+}
+
+#header_wrap > header {
+    width: 1280px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    position: relative;
+}
+
+#header_wrap > header > h1 {
+    display: inline-block;
+}
+
+#header_wrap> header > .btn_nav {
+    width: 180px;
+    height: 50px;
+    display: block;
+    float: right;
+}
+
+header > .btn_nav > a > img {
+    margin-top: 30px;
+    padding-left: 60px;
+}
+
+header > h1 > a > img {
+    width: 180px;
+    margin-top: 10px;
+}
+
+header > #lnb {
+    position: absolute;
+    right: 30px;
+    top: 70px;
+}
+
+header > #lnb > ul {
+    width: 150px;
+    font-size: 15px;
+    text-align: center;
+    display: none; /*block 으로 바꾸면 노출*/
+}
+
+header > #lnb > ul > li {
+    width: 150px;
+    height: 50px;
+}
+
+header > #lnb > ul > li > a {
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    display: inline-block;
+    border: 1px solid #E4E4E4;
+}
+
+header > #lnb > ul > li:first-child > a {
+    border-bottom: 0px;
+}
+
+header > #lnb > ul > li:last-child > a {
+    border-top: 0px;
+}

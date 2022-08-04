@@ -1,0 +1,171 @@
+/*
+ *
+   게시판 글보기에 관한 CSS
+ *
+*/
+
+
+#contents_wrap > .title_wrap {
+    height: 56px;
+    line-height: 56px;
+    margin-bottom: 80px;
+}
+
+.title_wrap > h3, #board_trade_state {
+    display: inline-block;
+}
+
+.title_wrap > h3 {
+    font-size: 36px;
+    font-weight: 300;
+}
+
+.title_wrap > #board_trade_state {
+    width: 250px;
+    height: 56px;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 20px;
+    font-size: 19px;
+    border: 1px solid #E4E4E4;
+
+}
+
+#contents_wrap::-webkit-scrollbar { width: 0 !important }
+#contents_wrap {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    margin-bottom: 100px;
+}
+
+/* 게시물 나타나는 테이블 부분 */
+.boardList_wrap, .boardList_header, .boardList_contents {
+    width: 100%;
+}
+
+.loaderBox {
+    padding: 10px;
+    height: 60px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.boardList_wrap > .boardList_header, .boardList_contents{
+    display: inline-flex;
+    height: 50px;
+    margin-bottom: 6px;
+    font-size: 17px;
+    color: black;
+    text-align: center;
+}
+
+.boardList_wrap > .boardList_header {
+    line-height: 50px;
+    font-weight: lighter;
+  
+}
+
+.boardList_header > div:first-of-type, .boardList_contents > div:first-of-type {
+    width: 10%;
+    min-width: 100px;
+    text-align: center;
+}
+
+.boardList_header > div:nth-of-type(2), .boardList_contents > .user_info {
+    width: 15%;
+    min-width: 160px;
+    text-align: center;
+}
+
+.boardList_header > div:nth-child(3), .boardList_contents > div:nth-child(3) {
+     width: 55%;
+     min-width: 240px;
+}
+
+.boardList_contents > div:nth-child(3) > a:visited {
+    color: #000;
+}
+
+.boardList_contents > div:nth-child(3) > a{
+    color: #000;
+}
+
+.boardList_contents > div:nth-child(3) > a:hover{
+    color: #97616C;
+}
+
+.boardList_header > div:nth-child(4), .boardList_contents > div:nth-child(4){
+     width: 10%;
+     min-width: 100px;
+}
+
+
+.boardList_header > div:last-of-type, .boardList_contents > div:last-of-type{
+    width: 10%;
+    min-width: 100px;
+}
+
+.boardList_contents {
+    height: 80px;
+    border-radius: 15px;
+    background-color: #fff;
+    box-shadow: 0px 0px 3px #C1C1C1;
+    line-height: 80px;
+}
+
+.boardList_contents > .user_info {
+    box-sizing: border-box;
+    padding-left: 3%;
+    overflow: hidden;
+    min-width: 180px;
+}
+
+.boardList_contents > .user_info > div {
+    display: inline-block;
+}
+
+.boardList_contents > .user_info > .user_info_text {
+   line-height: 18px;
+   text-align: left;
+   font-weight: bold;
+   margin-top: 23px;
+   float: left;
+   margin-left: 10px;
+   white-space: nowrap;
+   overflow: hidden;
+   text-overflow: ellipsis;
+}
+
+.user_info_text > span {
+    font-size: 14px;
+    color: #979797;
+    font-weight: lighter;
+    display: block;
+}
+
+
+/* 프로필 박스 */
+.user_info > .profil_box {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    float: left;
+    margin-top: 18px;
+    background-image: url(../img/EveryShare_boardlist/boardlist_profile.png);
+    background-size: 50px;
+    background-position: center center;
+}
+
+.board_type {
+    font-weight: bold;
+}
+.boardList_contents > div:nth-child(3) {
+    font-weight: bold;
+    white-space: nowrap;
+    overflow: hidden;
+   text-overflow: ellipsis;
+    box-sizing: border-box;
+    padding-left: 30px;
+    padding-right: 30px;
+}

@@ -1,0 +1,32 @@
+/***********
+***********
+
+css 초기화 코드 및 모든 페이지에 적용.
+여기에 다른 css코드 작성금지.
+전 페이지에 모두 적용되어야 할 css 코드만 작성함.
+
+************
+***********/
+
+@charset "utf-8";
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+body {
+  font-family: "Noto Sans KR", sans-serif !important;
+}
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td { margin:0; padding:0 }
+body, input, textarea, select, button, table { font-size:14px; line-height:1.25em; font-family:'Noto Sans KR', sans-serif; }
+html, body { height: 100%; padding:0; margin:0; }
+img, fieldset { border:0 }
+ul, ol { list-style:none }
+em, address { font-style:normal }
+a { text-decoration:none }
+a:hover, a:active, a:focus { text-decoration:underline }
+input::-ms-clear,input::-ms-reveal {display: none; width : 0; height: 0;}
+input::-webkit-search-decoration,
+input::-webkit-search-cancel-button,
+input::-webkit-search-results-button,
+input::-webkit-search-results-decoration { display: none; }
+
+.clear { clear: both;}
+

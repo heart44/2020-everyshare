@@ -1,0 +1,91 @@
+/***********
+***********
+
+회원가입 인트로
+CSS 개인적인 수정 금지.
+
+************
+***********/
+
+#join_cotents {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 109px;
+}
+
+#join_cotents > .join_box1 {
+    height: 350px;
+}
+
+.join_box1 > .text_wrap {
+    width: 275px;
+    height: 269px;
+    display: inline-block;
+    float: left;
+    margin-right: 130px;
+}
+
+.text_wrap  > h2 {
+    font-size: 55px;
+    line-height: 55px;
+    border-bottom: 2px solid #e4e4e4;
+    padding-bottom: 30px;
+}
+
+.text_wrap  > p {
+    font-size: 16px;
+    margin-top: 30px;
+}
+
+.btn_join_basic {
+    display: inline-block;
+    width: 360px;
+    height: 259px;
+    float: left;
+    border: 1px solid #e4e4e4;
+    background: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    text-align: left;
+    padding: 30px;
+    line-height: 30px;
+    padding-left: 60px;
+}
+
+.btn_join_basic:hover {
+    background-color: #334663;
+    color: #fff;
+}
+
+.btn_join_basic > span {
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+#benefit_contents {
+    width: 100%;
+    height: 170px;
+    border-top : 1px solid #e4e4e4; 
+    padding: 30px;
+}
+
+.join_box2 {
+    width: 1280px;
+    margin: 0 auto;
+}
+.join_box2 > h3 {
+    display: inline-block;
+    float: left;
+    margin-right: 220px;
+    line-height: 25px;
+    font-size: 20px;
+}
+
+.join_box2 > .box_benefit {
+    width: 144px;
+    height: 144px;
+    float: left;
+    border-radius: 144px;
+    border: 1px solid #e4e4e4;
+    margin-left: 55px;
+}
